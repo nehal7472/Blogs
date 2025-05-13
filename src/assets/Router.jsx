@@ -32,7 +32,7 @@ export default function Router() {
     >
       <div className="md:w-[1050px] mx-auto">
         <Nav toggleDarkMode={toggleDarkMode} isDark={isDark} />
-        <div className="md:flex gap-4 mt-6">
+        <div className="flex  flex-col-reverse md:flex-row  gap-4 mt-6 ">
           <Blogs
             handleAddToBookmarks={handleAddToBookmarks}
             handleReadingTime={handleReadingTime}
