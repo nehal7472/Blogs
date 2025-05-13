@@ -1,12 +1,12 @@
 export default function Nav({ toggleDarkMode, isDark }) {
   return (
     <>
-      <div className="h-[120px] flex justify-between items-center px-4">
-        <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100">
+      <div className="h-[120px] flex flex-col md:flex-row justify-between items-center px-4 py-4 mb-16 md:mb-0 md:px-4 md:py-0">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-100">
           Simple Blog
         </h1>
 
-        <div className="flex items-center gap-4">
+        <div className="flex flex-col md:flex-row items-center gap-4 mt-4 md:mt-0">
           {/* Dark Mode Toggle */}
           <button
             onClick={toggleDarkMode}

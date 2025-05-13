@@ -2,7 +2,7 @@ import BookMark from "./BookMark";
 
 export default function BookMarks({ bookMarks, readingTime }) {
   return (
-    <div className="md:w-1/3">
+    <div className="w-full md:w-1/3 px-4">
       <div className="bg-white dark:bg-gray-900 p-4 rounded-lg shadow-sm">
         {/* Reading Time Display */}
         <div className="bg-purple-100 dark:bg-purple-800 text-purple-800 dark:text-purple-200 text-center font-semibold py-2 rounded mb-4">

@@ -30,7 +30,7 @@ export default function Router() {
         isDark ? "dark" : ""
       } bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100`}
     >
-      <div className="w-[960px] mx-auto">
+      <div className="md:w-[1050px] mx-auto">
         <Nav toggleDarkMode={toggleDarkMode} isDark={isDark} />
         <div className="md:flex gap-4 mt-6">
           <Blogs

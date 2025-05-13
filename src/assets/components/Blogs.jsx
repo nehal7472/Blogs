@@ -19,7 +19,7 @@ export default function Blogs({ handleAddToBookmarks, handleReadingTime }) {
   }, []);
 
   return (
-    <div className="md:w-2/3 px-4">
+    <div className="w-full md:w-2/3 px-4">
       <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
         Latest Blog Posts
       </h2>

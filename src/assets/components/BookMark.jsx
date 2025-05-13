@@ -6,7 +6,7 @@ export default function BookMark({ item }) {
       {/* Author Info */}
       <div className="flex items-center gap-4 mb-2">
         <img
-          className="w-[50px] h-[50px] object-cover rounded-full"
+          className="w-12 h-12 object-cover rounded-full"
           src={author_img}
           alt={`Author: ${author}`}
         />

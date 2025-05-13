@@ -1,1 +1,4 @@
 @import "tailwindcss";
+/* Removed invalid @custom-variant rule. Use Tailwind's dark mode configuration in tailwind.config.js instead. */
+@custom-variant dark (&:where(.dark, .dark *));
+

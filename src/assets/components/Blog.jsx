@@ -11,7 +11,7 @@ export default function Blog({
       <img
         src={blog.cover}
         alt={`Cover image for ${blog.title}`}
-        className="w-full h-48 object-cover rounded-md"
+        className="w-full h-48 object-cover rounded-md md:h-64"
       />
 
       <div className="flex items-center mt-4 gap-4">
