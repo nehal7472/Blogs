@@ -1,5 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
-export default function ({ blog }) {
+import { FaRegBookmark } from "react-icons/fa6";
+export default function ({ blog, handleAddToBookmarks }) {
   return (
     <div className="mb-4 ">
       <img
@@ -19,12 +20,16 @@ export default function ({ blog }) {
         </div>
       </div>
       <h2 className="text-xl font-bold mt-2">{blog.title}</h2>
-      <p className="text-gray-500">{blog.reading_time}</p>
-      <div className="flex space-x-2 ">
+      <div className="flex items-center gap-6 mt-2 mb-4">
+        <p className="text-gray-500">{blog.reading_time}</p>
+
+        <FaRegBookmark onClick={() => handleAddToBookmarks(blog)} />
+      </div>
+      <div className="flex space-x-2  ">
         {blog.hashtags.map((hashtag, index) => (
           <span
             key={index}
-            className="bg-blue-100 text-blue-600 text-xs font-medium px-2.5 py-0.5 rounded"
+            className="bg-blue-100 text-blue-600 text-xs font-medium px-2.5 py-0.5 rounded "
           >
             {hashtag}
           </span>
