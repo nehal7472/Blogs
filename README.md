@@ -1,12 +1,103 @@
-# React + Vite
+📘 Simple Blog App
+A modern blog listing app built with React and Tailwind CSS, featuring:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📚 Bookmarking system
 
-Currently, two official plugins are available:
+⏱ Reading time tracker
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌗 Dark/light mode support
 
-## Expanding the ESLint configuration
+🚀 Features
+📰 View a list of curated tech blogs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⭐ Bookmark your favorite articles
+
+🕒 Track total reading time
+
+🎨 Switch between light and dark mode
+
+💡 Responsive and clean UI
+
+📁 Project Structure
+├── public/
+│   ├── nav-pic.png
+│   └── blogs.js
+├── src/
+│   ├── components/
+│   │   ├── Blog.jsx
+│   │   ├── Blogs.jsx
+│   │   ├── BookMark.jsx
+│   │   ├── BookMarks.jsx
+│   │   ├── Footer.jsx
+│   │   └── Nav.jsx
+│   ├── Router.jsx
+│   └── index.js
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+
+📦 Tech Stack
+React (Functional Components, Hooks)
+
+Tailwind CSS (with dark mode)
+
+JavaScript (ES6+)
+
+Vite or CRA (your choice of React bundler)
+
+⚙️ Installation & Setup
+Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/simple-blog.git
+cd simple-blog
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Run the app
+
+bash
+Copy
+Edit
+npm run dev  # or npm start if using CRA
+View in browser
+Visit http://localhost:5173
+
+🌑 Enabling Dark Mode
+Tailwind dark mode is set to class mode.
+
+To toggle dark mode manually, apply the dark class to your <html> or <body> tag:
+
+html
+Copy
+Edit
+<html class="dark">
+Or implement a toggle button that toggles the dark class dynamically.
+
+Need help with that? Let me know.
+
+📸 Screenshots
+You can include screenshots here using Markdown:
+
+md
+Copy
+Edit
+![Light Mode](screenshots/light-mode.png)
+![Dark Mode](screenshots/dark-mode.png)
+🙌 Acknowledgements
+Tailwind CSS
+
+React
+
+Unsplash for blog cover images
+
+RandomUser.me for profile avatars
+
+📄 License
+This project is licensed under the MIT License.
